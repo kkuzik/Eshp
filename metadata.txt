@@ -1,0 +1,54 @@
+[general]
+name=Eshp
+qgisMinimumVersion=3.28
+description=Export Selected SHP umożliwia łatwe eksportowanie wybranych warstw wektorowych z QGIS do formatu ESRI Shapefile (SHP).
+version=0.7
+author=Karol Kuzik
+email=karolkuzik@gmail.com
+
+about=Narzędzie przydatne w przypadku, gdy użytkownik chce szybko i wygodnie zapisać jedną lub wiele warstw w formacie SHP bez potrzeby przechodzenia przez złożone menu eksportu.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+changelog=
+  Wersja 0.1
+  * Opcja eksportu pojedynczej warstwy
+  Jeżeli zaznaczona jest tylko jedna warstwa, użytkownik ma możliwość potwierdzenia eksportu tylko tej konkretnej warstwy.
+  Wersja 0.2
+  * Dodano możliwość eksportu wielu warstw. W przypadku zaznaczenia kilku warstw, program zapisze wszystkie zaznaczone do wcześniej wskazanej przez użytkownika lokalizacji.
+  Wersja 0.3
+  * Opcja konwersji układu współrzędnych. Jeśli warstwa nie jest w układzie współrzędnych EPSG:2180, użytkownik może zdecydować, czy chce przekonwertować ją do tego układu przed zapisem.
+  Wersja 0.4
+  * Nadpisywanie istniejących plików. W przypadku, gdy plik o tej samej nazwie już istnieje w wybranym folderze, pojawi się komunikat, czy nadpisać pliki.
+  Wersja 0.5
+  * Dodano możliwość zapisu stylów warstw. Użytkownik może zdecydować, czy chce zapisać również style warstw (w formacie QML) razem z warstwami SHP, co pozwala zachować wygląd warstw w przyszłych projektach QGIS.
+  Wersja 0.6
+  * Dodano pasek postępu, który pokazuje status zapisywania warstw, co ułatwia śledzenie postępu eksportu szczególnie przy większej liczbie warstw.
+ Wersja 0.7
+  * Poprawa zapisu nieobsługiwanych typów pól - konwersja na String (użycie wartości wyświetlanej).
+homepage=http://homepage
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
