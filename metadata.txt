@@ -9,7 +9,7 @@ email=karolkuzik@gmail.com
 about=Narzędzie przydatne w przypadku, gdy użytkownik chce szybko i wygodnie zapisać jedną lub wiele warstw w formacie SHP bez potrzeby przechodzenia przez złożone menu eksportu.
 
 tracker=http://bugs
-repository=http://repo
+repository=https://github.com/kkuzik/Eshp
 # End of mandatory metadata
 
 # Recommended items:
